@@ -17,8 +17,8 @@ namespace sonar {
      * @param trig tigger pin
      * @param echo echo pin
      * @param teller1 lekker onzin praat
-     * @param unit desired conversion unit
-     * @param maxCmDistance maximum distance in centimeters (default is 500)
+     * @param unit desired omreken eenheid
+     * @param maxCmDistance maximum afstand in centimeter (default is 500)
      */
     //% blockId=sonar_ping block="ping trig %trig|echo %echo|unit %unit"
     export function ping(trig: AnalogPin, echo: AnalogPin, unit: PingUnit, maxCmDistance : number {
