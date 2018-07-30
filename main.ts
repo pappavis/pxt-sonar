@@ -13,7 +13,7 @@ enum PingUnit {
 //% color="#2c3e50" weight=10
 namespace sonar {
     /**
-     * Send a ping and get the echo time (in microseconds) as a result
+     * Stuur een sonar pingen meet die echo tijd (in microseconden) als resultaat
      * @param trig tigger pin
      * @param echo echo pin
      * @param teller1 lekker onzin praat
@@ -21,7 +21,7 @@ namespace sonar {
      * @param maxCmDistance maximum distance in centimeters (default is 500)
      */
     //% blockId=sonar_ping block="ping trig %trig|echo %echo|unit %unit"
-    export function ping(trig: DigitalPin, echo: DigitalPin, unit: PingUnit, maxCmDistance = 500): number {
+    export function ping(trig: AnalogPin, echo: AnalogPin, unit: PingUnit, maxCmDistance : number {
         // send pulse
         pins.setPull(trig, PinPullMode.PullNone);
         pins.digitalWritePin(trig, 0);
