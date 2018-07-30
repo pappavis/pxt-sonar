@@ -1,6 +1,6 @@
 # pxt-sonar [![Build Status](https://travis-ci.org/Microsoft/pxt-sonar.svg?branch=master)](https://travis-ci.org/Microsoft/pxt-sonar)
 
-A MakeCode package to use sonar sensors (ping) such as the HC-SR04.
+A Micro:bit MakeCode package to use sonar sensors (ping) such as the HC-SR04.
 
 ## Usage
 
@@ -34,3 +34,5 @@ MIT
 
     This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/). For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
 
+
+#s4kdenhaag
